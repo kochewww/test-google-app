@@ -6,7 +6,6 @@ import StepLabel from "@material-ui/core/StepLabel";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import AddresInput from "../AddressInput";
-import FullAddress from "../FullAddress";
 import { Context } from "../Context";
 import { Wrapper } from "../FullAddress";
 

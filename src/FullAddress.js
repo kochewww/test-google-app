@@ -19,11 +19,6 @@ export default function FullAddress() {
   const toggleEditable = () => {
     setIsEditable(!isEditable);
   };
-  const handleBlur = value => {
-    value ? setIsError(false) : setIsError(true);
-    console.log(isError);
-  };
-  const validate = () => {};
   const separatedAddress = fullAddress.map(component => (
     <Wrapper key={`${component.long_name}  ${component.types}`}>
       <TextField

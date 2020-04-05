@@ -5,7 +5,6 @@ import PlacesAutocomplete, {
 import Input from "@material-ui/core/Input";
 import { Context } from "./Context";
 import FullAddress from "./FullAddress";
-import styled from "styled-components";
 
 export default function AddressInput() {
   const [address, setAddress] = useState("");
